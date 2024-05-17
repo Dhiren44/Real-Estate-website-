@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Real Estate Listings</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="search">
+            <h2>Search Properties</h2>
+            <form>
+                <input type="text" placeholder="Enter location">
+                <input type="number" placeholder="Minimum price">
+                <input type="number" placeholder="Maximum price">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+        <section id="listings">
+            <h2>Latest Listings</h2>
+            <div class="property">
+                <img src="property1.jpg" alt="Property 1">
+                <h3>Property 1</h3>
+                <p>Location: City A</p>
+                <p>Price: £200,000</p>
+            </div>
+            <div class="property">
+                <img src="property2.jpg" alt="Property 2">
+                <h3>Property 2</h3>
+                <p>Location: City B</p>
+                <p>Price: £300,000</p>
+            </div>
+            <!-- More property listings can be added here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Real Estate Website. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
